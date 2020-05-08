@@ -149,7 +149,13 @@ class Instructor extends Lambdasian {
     this.catchPhrase = obj.catchPhrase;
   }
 
-  // TODO: add the methods
+  demo(subject) {
+    return `Today we are learning about ${subject}`;
+  }
+
+  grade(student, subject) {
+    return `${student.name} receives a perfect score on ${subject}`;
+  }
 }
 
 /*
